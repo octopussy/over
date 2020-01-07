@@ -1,17 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Model.Build;
-using UnityEngine;
-
-public class World
+﻿namespace Model
 {
-    private World(List<CellCreation> cells)
+    public class World
     {
-        
-    }
+        private World(Level.Level level)
+        {
+            
+        }
 
-    public static World Create(List<CellCreation> cells)
-    {
-        return new World(cells);
+        public void Advance(ref WorldState stateAfter)
+        {
+        
+        }
+
+        public static World Create(Level.Level level)
+        {
+            return new World(level);
+        }
     }
 }
