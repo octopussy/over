@@ -1,0 +1,19 @@
+{
+  "cells": {
+    "0:0": {
+      "type": "ground"
+    },
+    "0:1": {
+      "type": "grass"
+    },
+    "0:2": {
+      "type": "grass"
+    },
+    "0:3": {
+      "type": "water"
+    },
+    "0:4": {
+      "type": "bushes"
+    }
+  }
+}
